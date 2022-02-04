@@ -1,0 +1,22 @@
+.board tr td {
+    border: solid black 1px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.board tr:nth-child(odd) td:nth-child(even) {
+    background: red;
+}
+.board tr:nth-child(even) td:nth-child(even) {
+    background: green;
+}
+.board tr:nth-child(odd) td:nth-child(odd) {
+    background: green;
+}
+.board tr:nth-child(even) td:nth-child(odd) {
+    background: red;
+}
+.info{
+    background:lightblue;
+    margin-top:10px;
+}
