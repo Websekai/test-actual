@@ -10,7 +10,8 @@
 - ACT-TT4 :* Réaliser une suite de test unitaire pour les 3 premiers exercices.
 
 ## Etapes
-
+- Composer Install
+- Dupliquer .env.example en .env
 - Créer une base de données nommée "laravel"
 - php artisan migrate
 - php artisan db:seed
